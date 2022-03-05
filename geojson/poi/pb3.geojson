@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "pb3",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Dr. Surono", "Field2": "ITERA", "lat": -5.358259, "long": 105.3126608, "role": "Pembicara" }, "geometry": { "type": "Point", "coordinates": [ 105.3126608, -5.358259 ] } },
+{ "type": "Feature", "properties": { "name": "Maulina Utaminingsih", "Field2": "MPBI", "lat": -6.201957, "long": 106.8453206, "role": "Penanggap" }, "geometry": { "type": "Point", "coordinates": [ 106.8453206, -6.201957 ] } },
+{ "type": "Feature", "properties": { "name": "Mino", "Field2": "Pujiono Center", "lat": -6.191678, "long": 106.7694963, "role": "Penanggap" }, "geometry": { "type": "Point", "coordinates": [ 106.7694963, -6.191678 ] } },
+{ "type": "Feature", "properties": { "name": "Titi Moektijasih", "Field2": "UN-OCHA", "lat": -6.1862116, "long": 106.8207057, "role": "Host" }, "geometry": { "type": "Point", "coordinates": [ 106.8207057, -6.1862116 ] } },
+{ "type": "Feature", "properties": { "name": "Arif Rahmansyah Daran", "Field2": "CARI!", "lat": -6.914854, "long": 107.6763082, "role": "Ignite Stage" }, "geometry": { "type": "Point", "coordinates": [ 107.6763082, -6.914854 ] } }
+]
+}

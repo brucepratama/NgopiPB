@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "pb4",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Yusra Tebe", "aff": "Unicef", "lat": -6.220026, "long": 106.8141155, "role": "Pembicara" }, "geometry": { "type": "Point", "coordinates": [ 106.8141155, -6.220026 ] } },
+{ "type": "Feature", "properties": { "name": "Disya Marianty", "aff": "Pujiono Center", "lat": -6.191678, "long": 106.7694963, "role": "Penanggap" }, "geometry": { "type": "Point", "coordinates": [ 106.7694963, -6.191678 ] } },
+{ "type": "Feature", "properties": { "name": "Noorma M. Syamsiah", "aff": "MPBI", "lat": -6.201957, "long": 106.8453206, "role": "Penanggap" }, "geometry": { "type": "Point", "coordinates": [ 106.8453206, -6.201957 ] } },
+{ "type": "Feature", "properties": { "name": "Renar Berandi", "aff": "-", "lat": 0.0, "long": 0.0, "role": "Host" }, "geometry": { "type": "Point", "coordinates": [ -1.79769313486231571e+308, -1.79769313486231571e+308 ] } },
+{ "type": "Feature", "properties": { "name": "Hanifah Syahroeddin", "aff": "WAPSI", "lat": -6.9096795, "long": 112.4825104, "role": "Ignite Stage" }, "geometry": { "type": "Point", "coordinates": [ 112.4825104, -6.9096795 ] } }
+]
+}

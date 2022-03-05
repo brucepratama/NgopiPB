@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "line4",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 106.814121581627077, -6.220058036045731 ], [ 106.845363725889953, -6.201766003394414 ] ] ] } },
+{ "type": "Feature", "properties": { "id": 2 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 106.814121581627077, -6.220058036045731 ], [ 106.769443696567222, -6.191567790500317 ] ] ] } }
+]
+}
