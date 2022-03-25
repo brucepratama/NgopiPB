@@ -61,6 +61,36 @@
       zoomControl: false,
       tap: false
     });
+    
+  var info = L.control();
+
+  info.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'info');
+    this.update();
+    return this._div;
+  };
+
+  info.update = function (props) {
+    this._div.innerHTML = '<h4> <b>Episode NgopiPB</b> <br> Kegiatan NgopiPB 1 - 5 <br> Kegiatan NgopiPB 6 - 10 <br> Kegiatan NgopiPB 11 - 15 <br> Kegiatan NgopiPB 16 - 20 <br> Kegiatan NgopiPB 21 - 25 <br> Kegiatan NgopiPB 26 - 30 <br> Kegiatan NgopiPB 31 - 33 </h4>'
+  };
+  info.addTo(map);
+
+  L.Control.WaterMark=L.Control.extend({
+    onAdd: function(map){
+      var img = L.DomUtil.create('img');
+      img.src = 'media/cari.png';
+      img.style.with = '200px';
+      return img;
+    },
+    onRemove:function(map){},
+   });
+
+  L.control.watermark = function(opts){
+    return new L.Control.WaterMark(opts);
+  }
+
+  L.control.watermark({position:'bottomright'}).addTo(map);
+     
   </script>
 
   <script type="text/javascript" src="google-doc-url.js"></script>
