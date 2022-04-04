@@ -40,7 +40,16 @@
 <body>
 
   <div id="title">
+    <h3>Diselenggarakan oleh:</h3>
     <div id="logo"></div>
+    <p1>Didukung oleh:</p1>
+      <ul id="ul">
+        <li id="li"><a href="https://www.asbindonesia.org/" target="_blank"> <img src="media/suport/asb.png"/></a></li>
+        <li id="li"><a href="https://www.asbindonesia.org/" target="_blank"> <img src="media/suport/wapsi.png"/></a></li>
+        <li id="li"><a href="https://www.asbindonesia.org/" target="_blank"> <img src="media/suport/iom.png"/></a></li>
+        <li id="li"><a href="https://www.asbindonesia.org/" target="_blank"> <img src="media/suport/ocha.png"/></a></li>
+        <li id="li"><a href="https://www.asbindonesia.org/" target="_blank"> <img src="media/suport/siaga.png"/></a></li>
+      </ul>
     <div id="header"></div>
   </div>
 
@@ -72,11 +81,11 @@
   };
 
   info.update = function (props) {
-    this._div.innerHTML = '<h4> <b>Daftar Episode</b> <br><br> <a href="#satu">Episode 1 - 5 </a> <br>  <a href="#enam"> Episode 6 - 10</a> <br> <a href="#sebelas">Episode 11 - 15</a> <br> <a href="#enambelas">Episode 16 - 20</a> <br> <a href="#duasatu">Episode 21 - 25</a> <br>  <a href="#duaenam">Episode 26 - 30</a> <br> <a href="#tigasatu">Episode 31 - 33</a> </h4>'
+    this._div.innerHTML = '<h4> <b>Daftar Episode</b> <br><br> <a href="#daftarisi">Daftar Seluruh Episode</a> <br> <a href="#satu">Episode 1 - 5 </a> <br>  <a href="#enam"> Episode 6 - 10</a> <br> <a href="#sebelas">Episode 11 - 15</a> <br> <a href="#enambelas">Episode 16 - 20</a> <br> <a href="#duasatu">Episode 21 - 25</a> <br>  <a href="#duaenam">Episode 26 - 30</a> <br> <a href="#tigasatu">Episode 31 - 33</a> </h4>'
   };
   info.addTo(map);
 
-  //L.Control.WaterMark=L.Control.extend({
+  L.Control.WaterMark=L.Control.extend({
     onAdd: function(map){
       var img = L.DomUtil.create('img');
       img.src = 'media/cari.png';
